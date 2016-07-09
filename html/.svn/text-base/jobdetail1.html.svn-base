@@ -1,0 +1,1036 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<title>哎呦网 唯一一家唐诗宋词取名网站</title>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0">
+		<meta name="keywords" content="诗名，根据古诗起名字，公司名字，古诗起公司名字，类似于百度取自于‘众里寻她千百度’，古诗分类，诗词名句起名字，个人起名，通俗易懂，像赶集网，百姓网，知名童话故事，如阿里巴巴">
+		<meta name="description" content="根据古诗取名字，有诗意，逼格高，词达意到，最知名的莫过于百度的‘众里寻她千百度，蓦然回首，那人却在灯火阑珊处’，诗情画意，逼格甚高">
+		<link rel="Shortcut Icon" href="../images/iu-logo.ico">
+		<link href="style/css/style.css" type="text/css" rel="stylesheet">
+		<link href="style/css/external.min.css" type="text/css" rel="stylesheet">
+		<link href="style/css/popup.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="style/js/jquery.1.10.1.min.js"></script>
+		<script src="style/js/jquery.lib.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="style/js/ajaxfileupload.js"></script>
+		<script type="text/javascript" src="style/js/jquery-hbzx.js"></script>
+		<script src="../js/useful-words.js"></script>
+		<script src="../js/laonames.js"></script>
+		<script src="../js/names.js"></script>
+		<!--[if lte IE 8]>
+    <script type="text/javascript" src="style/js/excanvas.js"></script>
+<![endif]-->
+		<script src="style/js/ajaxCross.json" charset="UTF-8"></script>
+		<style>
+			.iw {
+				width: 100%;
+				-webkit-box-sizing: border-box;
+				border: .3em solid transparent;
+				-webkit-background-clip: padding;
+			}
+			.iw_rt {
+				position: relative;
+				height: 46px;
+				width: 195px;
+				-webkit-box-sizing: border-box;
+				display: -webkit-box;
+				-webkit-box-align: center;
+				margin: 2px 5px 0 2px;
+				background-color: rgba(0, 0, 0, 0.8);
+				-webkit-box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
+				-webkit-border-radius: 2px;
+				color: #fff;
+			}
+			.iw_rt:after {
+				content: "";
+				position: absolute;
+				left: 50%;
+				bottom: -8px;
+				width: 0;
+				height: 0;
+				border-left: 5px solid transparent;
+				border-top: 8px solid rgba(0, 0, 0, 0.8);
+				border-right: 5px solid transparent;
+				margin: 0 0 0 -6px;
+			}
+			.iw_s {
+				text-align: center;
+				vertical-align: middle;
+				height: 100%;
+				-webkit-box-sizing: border-box;
+			}
+			.iw_rt .iw_s1 {
+				color: #cbcbcb;
+			}
+			.iw_rt b {
+				color: #fff;
+				font-weight: bold;
+			}
+			.iw_rt_gr {
+				margin-left: -4px;
+			}
+			.iw_busline {
+				margin: 32px 0 0 -3px;
+			}
+			.iw_busline .iw_cc {
+				text-align: center;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				overflow: hidden;
+				padding: 0 6px;
+			}
+			.iw_r {
+				-webkit-box-ordinal-group: 3;
+			}
+			.iw_r,
+			.iw_l {
+				height: 100%;
+				font-size: 4.5em;
+				text-align: center;
+				color: #747474;
+				border: none;
+				-webkit-box-sizing: border-box;
+				-webkit-border-radius: 0;
+				line-height: .7em;
+				border: 1px solid rgba(255, 255, 255, 0.2);
+				width: 41px;
+			}
+			.iw_r {
+				border-style: none none none solid;
+			}
+			.iw_l {
+				border-style: none solid none none;
+			}
+			.iw_search,
+			.iw_l {
+				background: url("style/images/img/u20LgruGtNFM8lqnNtfK2JqN3CVeW1gzWj9jThd0xd59R8BBgAAiefGO1Bt1gAAAABJRU5ErkJggg==") no-repeat 50% 50%;
+				-webkit-background-size: 19px 19px;
+			}
+			.iw_line_s,
+			.iw_r {
+				background: url("style/images/img/wCKLRHq20vjSoVNKWunH4rTBDv5Cv7NKeKfvvU2nINzHAuexzUA7KQTkoB6UxDicKvcqfQQYABaiUBxugCsr20AAAAAElFTkSuQmCC") no-repeat 50% 50%;
+				-webkit-background-size: 19px 19px;
+			}
+			.iw_line {
+				height: 64px;
+				width: 228px;
+				padding: 0 11px;
+				line-height: 20px;
+			}
+			.iw_bustrans .iw_cc {
+				text-align: center;
+			}
+			.iw_c {
+				color: #FFFFFF;
+				text-decoration: none;
+				overflow: hidden;
+				display: -webkit-box;
+				-webkit-box-align: center;
+				-webkit-box-flex: 1;
+			}
+			.iw_cc {
+				-webkit-box-sizing: border-box;
+				width: 100%;
+				border: none;
+			}
+			.gray_background {
+				filter: alpha(opacity=50);
+				-moz-opacity: 0.5;
+				-khtml-opacity: 0.5;
+				opacity: 0.5
+			}
+			.light_gray_background {
+				filter: alpha(opacity=70);
+				-moz-opacity: 0.7;
+				-khtml-opacity: 0.7;
+				opacity: 0.7
+			}
+			.panoInfoBox {
+				cursor: pointer;
+			}
+			.panoInfoBox {
+				position: relative;
+				width: 323px;
+				height: 101px;
+				margin-bottom: 4px;
+				cursor: pointer;
+			}
+			.panoInfoBox .panoInfoBoxTitleBg {
+				width: 323px;
+				height: 19px;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				z-index: 2;
+				background-color: #000;
+				opacity: .7;
+			}
+			.panoInfoBox .panoInfoBoxTitleContent {
+				font-size: 12px;
+				color: #fff;
+				position: absolute;
+				bottom: 2px;
+				left: 5px;
+				z-index: 3;
+				text-decoration: none;
+			}
+			.RouteAddressOuterBkg {
+				position: relative;
+				padding: 32px 4px 4px 3px;
+				background-color: #ffdd99;
+			}
+			.RouteAddressInnerBkg {
+				padding: 3px 5px 8px 8px;
+				background-color: #ffffff;
+			}
+			#RouteAddress_DIV1 {
+				margin-top: 5px;
+			}
+			.RouteAddressTip {
+				position: absolute;
+				width: 340px;
+				top: 0px;
+				text-align: center;
+				height: 30px;
+				line-height: 30px;
+				color: #994c00;
+			}
+			.route_tip_con {
+				position: absolute;
+				top: 145px;
+			}
+			.route_tip_con .route_tip {
+				position: absolute;
+				width: 233px;
+				height: 29px;
+				color: #803300;
+				text-align: center;
+				line-height: 29px;
+				border: #cc967a solid 1px;
+				background: #fff2b2;
+				z-index: 100000;
+			}
+			.route_tip_con .route_tip span {
+				position: absolute;
+				top: 0;
+				right: 0;
+				_right: -1px;
+				width: 14px;
+				height: 13px;
+				background: url(style/images/img/addrPage.png) no-repeat 0 -121px;
+				cursor: pointer;
+			}
+			.route_tip_con .route_tip_shadow {
+				width: 233px;
+				height: 29px;
+				position: absolute;
+				left: 1px;
+				top: 1px;
+				background: #505050;
+				border: 1px solid #505050;
+				opacity: 0.2;
+				filter: alpha(opacity=20)
+			}
+			.sel_body_body_page {
+				margin: 5px 0
+			}
+			.sel_n {
+				margin-top: 5px;
+				overflow: hidden;
+			}
+			.sel_n .sel_top {
+				background: url(style/images/img/bgs.gif) no-repeat 0 -418px;
+				height: 4px;
+				font-size: 0px;
+			}
+			.sel_n .sel_body_top {
+				height: 32px;
+				width: 100%;
+				background: url(style/images/img/addrPage.png) no-repeat 0 -41px;
+			}
+			.sel_n .sel_body_title {
+				float: left;
+				width: 100%;
+				height: 31px;
+			}
+			.sel_n .sel_body_sign {
+				margin-top: 1px;
+				width: 30px;
+				height: 31px;
+				float: left;
+				background: url(style/images/img/bgs.gif) no-repeat -79px -387px;
+			}
+			.sel_n .sel_body_name {
+				margin: 0 20px 0 30px;
+				padding: 8px 7px 7px;
+				font-size: 14px;
+				color: #FA8722;
+			}
+			.sel_n .sel_body_button {
+				float: left;
+				width: 55px;
+				margin-left: -55px;
+				padding-top: 8px;
+			}
+			.sel_n .sel_body_button a {} .sel_n .sel_bottom {
+				background: url(style/images/img/bgs.gif) no-repeat 0 -415px;
+				height: 4px;
+				font-size: 0px;
+			}
+			.sel_n .sel_body_body {
+				padding: 3px 0 0 0
+			}
+			.sel_n1 {
+				margin-top: 5px;
+				width: 329px;
+				overflow: hidden;
+			}
+			.sel_n1 .sel_top {
+				background: url(style/images/img/bgs.gif) no-repeat 0 -418px;
+				height: 4px;
+				font-size: 0px;
+			}
+			.sel_n1 .sel_body_top {
+				height: 31px;
+				width: 100%;
+				background: url(style/images/img/sel_body_n_top.gif) repeat-x;
+			}
+			.sel_n1 .sel_body_top {
+				height: 32px;
+				width: 100%;
+				background: url(style/images/img/addrPage.png) no-repeat 0 -41px
+			}
+			.sel_n1 .sel_body_title {
+				float: left;
+				width: 100%;
+				height: 31px;
+				cursor: pointer;
+			}
+			.sel_n1 .sel_body_sign {
+				margin-top: 1px;
+				width: 30px;
+				height: 31px;
+				float: left;
+				background: url(style/images/img/bgs.gif) no-repeat -79px -387px;
+			}
+			.sel_n1 .sel_body_name {
+				margin: 0 20px 0 30px;
+				padding: 8px 7px 7px;
+				font-size: 14px;
+				color: #FA8722;
+			}
+			.sel_n1 .sel_body_button {
+				float: left;
+				width: 20px;
+				height: 31px;
+				margin-left: -23px;
+				background: url(style/images/img/bgs.gif) no-repeat -253px -382px;
+				overflow: hidden;
+				zoom: 1;
+				cursor: pointer;
+			}
+			.sel_n1 .sel_body_button a {
+				display: none;
+			}
+			.sel_n1 .sel_body_body {
+				display: none
+			}
+			.sel_n1 .sel_bottom {
+				background: url(style/images/img/bgs.gif) no-repeat 0 -415px;
+				height: 4px;
+				font-size: 0px;
+			}
+			.sel_y {
+				margin-top: 5px;
+				overflow: hidden;
+			}
+			.sel_y .sel_top {
+				background: url(style/images/img/bgs.gif) no-repeat 0 -439px;
+				height: 4px;
+				zoom: 1;
+				font-size: 0px;
+			}
+			.sel_y .sel_body_top {
+				height: 32px;
+				width: 100%;
+				background: url(style/images/img/addrPage.png) no-repeat 0 0
+			}
+			.sel_y .sel_body_title {
+				float: left;
+				width: 100%;
+				height: 31px;
+				cursor: pointer;
+			}
+			.sel_y .sel_body_sign {
+				margin-top: 1px;
+				width: 30px;
+				height: 31px;
+				float: left;
+				background: url(style/images/img/bgs.gif) no-repeat -167px -384px;
+			}
+			.sel_y .sel_body_name {
+				margin: 0 20px 0 30px;
+				padding: 8px 7px 7px;
+				font-size: 14px;
+				color: #5B7BCB;
+			}
+			.sel_y .sel_body_button {
+				float: left;
+				width: 20px;
+				height: 31px;
+				margin-left: -20px;
+				background: url(style/images/img/bgs.gif) no-repeat -269px -297px;
+				cursor: pointer;
+			}
+			.sel_y .sel_body_button a {
+				display: none;
+			}
+			.sel_y .sel_body_body {
+				display: none;
+				height: 0px
+			}
+			.sel_y .sel_body_body_div {} .sel_y .sel_bottom {
+				background: url(style/images/img/bgs.gif) no-repeat 0 -436px;
+				height: 4px;
+				font-size: 0px;
+			}
+			.sel_y .sel_body_body_page {
+				display: none;
+				height: 0px;
+			}
+			.sel_x {
+				margin-top: 5px;
+				width: 329px;
+				overflow: hidden;
+			}
+			.sel_x .sel_top {
+				background: url(style/images/img/bgs.gif) no-repeat 0 -418px;
+				height: 4px;
+				font-size: 0px;
+			}
+			.sel_x .sel_body_top {
+				height: 32px;
+				width: 100%;
+				background: url(style/images/img/addrPage.png) no-repeat 0 -41px;
+			}
+			.sel_x .sel_body_title {
+				float: left;
+				width: 100%;
+				height: 31px;
+			}
+			.sel_x .sel_body_sign {
+				margin-top: 1px;
+				width: 30px;
+				height: 31px;
+				float: left;
+				background: url(style/images/img/bgs.gif) no-repeat -122px -384px;
+			}
+			.sel_x .sel_body_name {
+				margin: 0 20px 0 30px;
+				padding: 8px 7px 7px;
+				font-size: 14px;
+				color: #FA8722;
+			}
+			.sel_x .sel_body_button {
+				float: left;
+				width: 55px;
+				margin-left: -55px;
+				padding-top: 8px;
+			}
+			.sel_x .sel_body_button a {} .sel_x .sel_body_body {} .sel_x .sel_body_body_div {
+				padding: 5px 5px 0 5px;
+			}
+			.sel_x .sel_bottom {
+				background: url(style/images/img/bgs.gif) no-repeat 0 -415px;
+				height: 4px;
+				font-size: 0px;
+			}
+			.sel_x1 {
+				margin-top: 5px;
+				width: 329px;
+				overflow: hidden;
+			}
+			.sel_x1 .sel_top {
+				background: url(style/images/img/bgs.gif) no-repeat 0 -418px;
+				height: 4px;
+				font-size: 0px;
+			}
+			.sel_x1 .sel_body_top {
+				height: 32px;
+				width: 100%;
+				background: url(style/images/img/addrPage.png) no-repeat 0 -41px
+			}
+			.sel_x1 .sel_body_title {
+				float: left;
+				width: 100%;
+				height: 31px;
+				cursor: pointer;
+			}
+			.sel_x1 .sel_body_sign {
+				margin-top: 1px;
+				width: 30px;
+				height: 31px;
+				float: left;
+				background: url(style/images/img/bgs.gif) no-repeat -122px -384px;
+			}
+			.sel_x1 .sel_body_name {
+				margin: 0 20px 0 30px;
+				padding: 8px 7px 7px;
+				font-size: 14px;
+				color: #FA8722;
+			}
+			.sel_x1 .sel_body_button {
+				float: left;
+				width: 55px;
+				height: 31px;
+				margin-left: -55px;
+			}
+			.sel_x1 .sel_body_button a {
+				display: none;
+			}
+			.sel_x1 .sel_body_body {
+				display: none;
+				height: 0px;
+			}
+			.sel_x1 .sel_body_body_div {
+				padding: 5px 5px 0 5px;
+			}
+			.sel_x1 .sel_bottom {
+				background: url(style/images/img/bgs.gif) no-repeat 0 -415px;
+				height: 4px;
+				font-size: 0px;
+			}
+			.sel_body_citylist {
+				height: 100px;
+				padding: 0 0 0 5px
+			}
+			.sel_body_resitem {
+				table-layout: fixed;
+				overflow-x: hidden;
+				overflow-y: hidden;
+			}
+			.sel_body_resitem table {
+				margin-right: 5px;
+			}
+			.sel_body_resitem tr {
+				cursor: pointer;
+			}
+			.sel_body_resitem th {
+				padding-top: 5px;
+				padding-left: 5px;
+				text-align: left;
+				vertical-align: top;
+				width: 22px;
+			}
+			.sel_body_resitem th div.iconbg {
+				background: url(style/images/img/markers_new_ie6.png) no-repeat scroll 0 0;
+				height: 29px;
+				width: 24px;
+			}
+			.sel_body_resitem th div.icon {
+				cursor: pointer
+			}
+			.sel_body_resitem th div#no_0_1,
+			.sel_body_resitem th div#no_1_1 {
+				background-position: 0 -64px
+			}
+			.sel_body_resitem th div#no_0_2,
+			.sel_body_resitem th div#no_1_2 {
+				background-position: -24px -64px
+			}
+			.sel_body_resitem th div#no_0_3,
+			.sel_body_resitem th div#no_1_3 {
+				background-position: -48px -64px
+			}
+			.sel_body_resitem th div#no_0_4,
+			.sel_body_resitem th div#no_1_4 {
+				background-position: -72px -64px
+			}
+			.sel_body_resitem th div#no_0_5,
+			.sel_body_resitem th div#no_1_5 {
+				background-position: -96px -64px
+			}
+			.sel_body_resitem th div#no_0_6,
+			.sel_body_resitem th div#no_1_6 {
+				background-position: -120px -64px
+			}
+			.sel_body_resitem th div#no_0_7,
+			.sel_body_resitem th div#no_1_7 {
+				background-position: -144px -64px
+			}
+			.sel_body_resitem th div#no_0_8,
+			.sel_body_resitem th div#no_1_8 {
+				background-position: -168px -64px
+			}
+			.sel_body_resitem th div#no_0_9,
+			.sel_body_resitem th div#no_1_9 {
+				background-position: -192px -64px
+			}
+			.sel_body_resitem th div#no_0_10,
+			.sel_body_resitem th div#no_1_10 {
+				background-position: -216px -64px
+			}
+			.sel_body_resitem td {
+				line-height: 160%;
+				padding: 3px 0 3px 3px;
+				vertical-align: top;
+			}
+			.sel_body_resitem div.ra_td_title {
+				float: left;
+				margin-right: 40px;
+			}
+			.sel_body_resitem div.ra_td_button {
+				float: right;
+				width: 40px;
+			}
+			.sel_body_resitem div.ra_td_button input {
+				height: 18px;
+				font-size: 12px;
+				width: 40px;
+			}
+			.sel_body_resitem div.clear {
+				clear: both;
+				height: 0px;
+				width: 100%;
+			}
+			.sel_body_resitem td .selBtn {
+				width: 70px;
+				height: 29px;
+				background: url(style/images/img/addrPage.png) no-repeat -21px -81px;
+				text-align: center;
+				line-height: 29px;
+				visibility: hidden;
+				color: #b35900;
+				display: inline-block;
+				*display: inline;
+				*zoom: 1;
+			}
+			.sel_body_resitem td .list_street_view_poi {
+				display: inline-block;
+				float: none;
+				margin-right: 6px;
+				position: static;
+				*vertical-align: -3px;
+				_vertical-align: -5px;
+				*display: inline;
+				*zoom: 1;
+			}
+			.selInfoWndBtn {
+				width: 70px;
+				height: 29px;
+				background: url(style/images/img/addrPage.png) no-repeat -21px -81px;
+				text-align: center;
+				line-height: 29px;
+				margin: 0 auto;
+				cursor: pointer;
+				color: #b35900
+			}
+			.sel_body_body td a {
+				text-decoration: none;
+				cursor: auto;
+			}
+			.sel_body_body td a:hover,
+			.sel_body_body td a:focus {
+				text-decoration: underline;
+			}
+			.original-content-css {
+				margin: 0px;
+				text-indent: 10px;
+				margin-bottom: 15px;
+			}
+			
+			.originalyw-content-css {
+				margin: 0px;
+				text-indent: 10px;
+				margin-bottom: 15px;
+				display: none;
+			}
+			span.style_content {
+			  font-size: 18px;
+			  color: #0BB363;
+			  font-weight: bold;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="body">
+			<div id="header">
+				<div class="wrapper">
+					<a href="index.html" class="logo">
+						<img src="style/images/logo1.png" width="229" height="43" />
+					</a>
+					<ul class="reset" id="navheader">
+						<li><a href="index.html">首页</a>
+						</li>
+						<li><a href="companylist.html">企业</a>
+						</li>
+						<li><a href="">个人</a>
+						</li>
+						<li class="current"><a href="">诗词名句</a>
+						</li>
+						<li><a href="about.html">关于我们</a>
+						</li>
+					</ul>
+					<ul class="loginTop">
+						<li><a href="login.html" rel="nofollow">登录</a>
+						</li>
+						<li>|</li>
+						<li><a href="register.html" rel="nofollow">注册</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- end #header -->
+			<div id="container">
+				<div class="clearfix">
+					<div class="content_l">
+						<dl class="job_detail">
+							<dt>
+                        <h1 title="滕王阁序">
+                            <em></em>
+                            <div>优秀古诗文</div>
+                           	滕王阁序
+                        </h1>
+                        <!--<div class="jd_collection" id="jobCollection">
+
+                       		<div class="jd_collection_success">
+
+                       			<span>已成功收藏该职位，</span>
+
+								<a class="jd_collection_page" href="mycenter/collections.html">查看全部</a>								
+
+								<a class="jd_collection_x" href="javascript:;"></a>
+
+							</div>
+
+                       	</div>-->
+                       </dt>
+							<dd class="job_request" style="position: relative;">
+								<span>骈体 </span>
+								<span>诗序</span>
+								<span>典范之作</span>
+								<br> 作者 : 王勃
+								<a title="分析好名字" class="btn fr btn_apply" href="javascript:void(0);" id="iuqianlne" style="  position: absolute;display: block;right: 33px;top: 23px;">潜力名字</a>
+							</dd>
+							<dd class="job_bt">
+								<h3 class="description">作品原文</h3>
+								<p class="original-content-css">豫章故郡，洪都新府。星分翼轸（zhěn），地接衡庐。襟三江而带五湖，控蛮荆而引瓯（ōu）越。物华天宝，龙光射牛斗之墟；人杰地灵，徐孺下陈蕃（fān）之榻（tà）。雄州雾列，俊采星驰。台隍（huáng）枕夷夏之交，宾主尽东南之美。都督阎公之雅望，棨（qǐ）戟（jǐ）遥临；宇文新州之懿（yì）范，襜（chān）帷（wéi）暂驻。十旬休假，胜友如云；千里逢迎，高朋满座。腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。家君作宰，路出名区；童子何知，躬逢胜饯。 时维九月，序属三秋。潦（lǎo）水尽而寒潭清，烟光凝而暮山紫。俨（yǎn）骖（cān）騑（fēi）于上路，访风景于崇阿（ē）。临帝子之长洲，得天人之旧馆。层峦耸翠，上出重霄；飞阁流丹，下临无地。鹤汀（tīng）凫（fú）渚（zhǔ），穷岛屿之萦回；桂殿兰宫，即冈峦之体势。
+									披绣闼（tà），俯雕甍（méng），山原旷其盈视，川泽纡其骇瞩。闾阎（lǘ yán）扑地，钟鸣鼎食之家；舸（gě）舰弥津，青雀黄龙之轴（通：舳zhú）。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡（lǐ）之滨，雁阵惊寒，声断衡阳之浦。 遥襟甫畅，逸兴遄（chuán）飞。爽籁发而清风生，纤歌凝而白云遏（è）。睢（suī）园绿竹，气凌彭泽之樽（zūn）；邺（yè）水朱华，光照临川之笔。四美具，二难并。穷睇眄（dì miǎn）于中天，极娱游于暇日。天高地迥（jiǒng），觉宇宙之无穷；兴尽悲来，识盈虚之有数。望长安于日下，目吴会（kuài）于云间。地势极而南溟（míng）深，天柱高而北辰远。关山难越，谁悲失路之人；萍水相逢，尽是他乡之客。怀帝阍（hūn）而不见，奉宣室以何年？
+									嗟乎！时运不齐，命途多舛（chuǎn）。冯唐易老，李广难封。屈贾谊于长沙，非无圣主；窜梁鸿于海曲，岂乏明时？所赖君子见机，达人知命。老当益壮，宁移白首之心？穷且益坚，不坠青云之志。酌贪泉而觉爽，处涸辙（hézhé）以犹欢。北海虽赊（shē），扶摇可接；东隅（yú）已逝，桑榆非晚。孟尝高洁，空余报国之情；阮籍猖狂，岂效穷途之哭！ 勃，三尺微命，一介书生。无路请缨，等终军之弱冠；有怀投笔，慕宗悫（què）之长风。舍簪（zān）笏（hù）于百龄，奉晨昏于万里。非谢家之宝树，接孟氏之芳邻。他日趋（qū）庭，叨（tāo）陪鲤对；今兹捧袂，喜托龙门。杨意不逢，抚凌云而自惜；钟期既遇，奏流水以何惭？
+									呜乎！胜地不常，盛筵难再；兰亭已矣，梓（zǐ）泽丘墟。临别赠言，幸承恩于伟饯；登高作赋，是所望于群公。敢竭鄙怀，恭疏短引；一言均赋，四韵俱成。请洒潘江，各倾陆海云尔： 滕王高阁临江渚，佩玉鸣鸾罢歌舞。 画栋朝飞南浦云，珠帘暮卷西山雨。 闲云潭影日悠悠，物换星移几度秋。 阁中帝子今何在？槛外长江空自流。
+							</dd>
+							<dd class="job_bt">
+								<div style="float: right;cursor: pointer;" id="hideBTN">点击查看</div>
+								<h3 class="description">作品译文</h3>
+								<p class="originalyw-content-css">这里以往是汉代的豫章郡城，如今是洪州的都督府，天上的方位属于翼、轸两星宿的分野，地上的位置连结着衡山和庐山。以三江为衣襟，以五湖为衣带、控制着楚地，连接着瓯越。物的精华是上天的珍宝，宝剑的光芒直冲上牛、斗二星之间。因为大地有灵气，所以英杰辈出，陈蕃专为徐孺设下几榻。雄伟的大洲像雾一般涌起，博学的人才，像繁星一样地活跃。城池坐落在夷夏交界的地方，主人与宾客，集中了东南地区的英俊之才。都督阎公，享有崇高的名望，远道来到洪州坐镇，宇文州牧，是美德的楷模，赴任途中特地在此暂留。正逢十日休假的日子，杰出的友人云集，高贵的宾客，也都不远千里来到这里聚会。文坛领袖孟学士所作文章的气势像腾起的蛟龙，飞舞的彩凤，王将军的兵器库里，藏有像紫电剑、青霜剑这样锋利的宝剑。由于父亲在交趾做县令，我在探亲途中经过这个著名的地方。我年幼无知，竟有幸亲身参加了这次盛大的宴会。</p>
+								<p class="originalyw-content-css">时当九月，季秋时节。积水消尽，潭水清澈，天空凝结着淡淡的云烟，暮霭中山峦呈现一片紫色。在高高的山路上驾着马车，在崇山峻岭中访求风景。来到滕王阁前的沙洲，发现了滕王所修的滕王阁。这里山峦重叠，青翠的山峰耸入云霄。凌空的楼阁，红色的阁道犹如飞翔在天空，从阁上看不到地面。白鹤，野鸭停息的小洲，极尽岛屿的纡曲回环之势，雅浩的宫殿，跟起伏的山峦配合有致。</p>
+								<p class="originalyw-content-css">推开雕花的阁门，俯视彩饰的屋脊，山峰平原尽收眼底，湖川曲折令人惊讶。遍地是里巷宅舍，许多钟鸣鼎食的富贵人家。舸舰塞满了渡口，尽是雕上了青雀黄龙花纹的大船。正值雨过天晴，虹消云散，阳光朗煦，落霞与野鸭一起飞翔，秋水和长天连成一片。傍晚渔舟中传出的歌声，响彻彭蠡湖滨，雁群感到寒意而发出的惊叫，鸣声到衡阳之浦为止。</p>
+								<p class="originalyw-content-css">放眼远望，胸襟刚感到舒畅，超逸的兴致立即兴起，排箫的音响引来的徐徐清风，柔缓的歌声吸引住飘动的白云。像睢园竹林的聚会，这里善饮的人，酒量超过彭泽县令陶渊明，像邺水赞咏莲花，这里诗人的文采，胜过临川内史谢灵运。（音乐与饮食，文章和言语）这四种美好的事物都已经齐备，（贤主、嘉宾）这两个难得的条件也凑合在一起了，向天空中极目远眺，在假日里尽情欢娱。苍天高远，大地辽阔，令人感到宇宙的无穷无尽。欢乐逝去，悲哀袭来，我知道了事物的兴衰成败是有定数的。西望长安，东指绍兴，南方的陆地已到尽头，大海深不可测，北方的北斗星多么遥远，天柱高不可攀。关山重重难以越过，有谁同情不得志的人？萍水偶尔相逢，大家都是异乡之客．怀念着君王的宫门，但却不被召见，什么时候才能够去侍奉君王呢？</p>
+								<p class="originalyw-content-css">呵，各人的时机不同，人生的命运多有不顺。冯唐容易衰老，李广难得封侯。使贾谊遭受委屈，贬于长沙，并不是没有圣明的君主，使梁鸿逃匿到齐鲁海滨，难道不是政治昌明的时代？只不过由于君子能了解时机，通达的人知道自己的命运罢了。年纪虽然老了，但志气应当更加旺盛，怎能在白头时改变心情？境遇虽然困苦，但节操应当更加坚定，决不能抛弃自己的凌云壮志。即使喝了贪泉的水，心境依然清爽廉洁；即使身处于干涸的车辙中，胸怀依然开朗愉快。北海虽然十分遥远，乘着旋风还是能够达到，早晨虽然已经过去，而珍惜黄昏却为时不晚。孟尝心地高洁，但白白地怀抱着报国的热情，阮籍为人放纵不羁，我们怎能学他那种穷途的哭泣！</p>
+								<p class="originalyw-content-css">我地位卑微，只是一个书生。虽然和终军一样年已二十一，却无处去请缨杀敌。我羡慕宗悫那种“乘长风破万里浪”的英雄气概，也有投笔从戎的志向。如今我抛弃了一生的功名，不远万里去朝夕侍奉父亲。虽然称不上谢家的“宝树”，但是能和贤德之士相交往。不久我将见到父亲，聆听他的教诲。今天我侥幸地奉陪各位长者，高兴地登上龙门。假如碰不上杨得意那样引荐的人，就只有抚拍着自己的文章而自我叹惜。既然已经遇到了钟子期，就弹奏一曲《流水》又有什么羞愧呢？</p>
+								<p class="originalyw-content-css">呵！名胜之地不能常存，盛大的宴会难以再逢。兰亭宴集已为陈迹，石崇的梓泽也变成了废墟。承蒙这个宴会的恩赐，让我临别时作了这一篇序文，至于登高作赋，这只有指望在座诸公了。我只是冒昧地尽我微薄的心意，作了短短的引言。在座诸位都按各自分到的韵字赋诗，我已写成了四韵八句。请在座诸位施展潘岳，陆机一样的才笔，各自谱写瑰丽的诗篇吧!</p>
+								<p class="originalyw-content-css">巍峨高耸的滕王阁俯临着江心的沙洲，想当初佩玉、鸾铃鸣响的豪华歌舞已经停止了。早晨，画栋飞上了南浦的云；黄昏，珠帘卷入了西山的雨。悠闲的彩云影子倒映在江水中，整天悠悠然地漂浮着；时光易逝，人事变迁，不知已经度过几个春秋。昔日游赏于高阁中的滕王如今已不知哪里去了，只有那栏杆外的滔滔江水空自向远方奔流。</p>
+							</dd>
+						
+							
+							<!-- 用户是否激活 0-否；1-是 -->
+
+						</dl>
+						<div id="weibolist"></div>
+					</div>
+					<div class="content_r" style="position: relative;">
+						<dl class="job_company" >
+							<dt>
+		                    	<a href="#">
+		                            <img width="80" height="80" alt="唐代王勃简介" src="style/images/wangb-01.png" class="b2">
+		                            <div>
+		                                <h2 class="fl">
+		                                	  王勃
+		                                </h2>
+		                            </div>
+		                        </a>
+		                    </dt>
+							<dd>
+								<ul class="c_feature reset">
+									<li><span>职业</span>写作</li>
+									<li><span>代表作</span>《滕王阁序》</li>
+								</ul>
+								<h4>个人简介</h4>
+								<div>王勃（约650年—约676年），字子安，汉族，唐代诗人。古绛州龙门（今山西河津）人，出身儒学世家，与杨炯、卢照邻、骆宾王并称为“初唐四杰”，王勃为四杰之首。王勃自幼聪敏好学，据《旧唐书》记载，他六岁即能写文章，文笔流畅，被赞为“神童”。九岁时，读颜师古注《汉书》，作《指瑕》十卷以纠正其错。十六岁时，应幽素科试及第，授职朝散郎。因做《斗鸡檄》被赶出沛王府。之后，王勃历时三年游览巴蜀山川景物，创作了大量诗文。返回长安后，求补得虢州参军。在参军任上，因私杀官奴二次被贬。上元三年（676年）八月，自交趾探望父亲返回时，不幸渡海溺水，惊悸而死。王勃在诗歌体裁上擅长五律和五绝，代表作品有《送杜少府之任蜀州》，主要文学成就是骈文，无论是数量还是质量上，都是上乘之作，代表作品有《滕王阁序》等。</div>
+							</dd>
+						</dl>	
+						<div id="iu_mask" style="display: none;"></div>
+						<div  id="sxnames" style="display: none;">
+								<style>
+									.iu-hidden {
+									  color: #FFF;
+									   position: fixed;
+									   width: 280px;
+ 									top: 84px;
+									}
+									.iu-hclose {
+									  width: 50px;
+									  height: 50px;
+									  display: block;
+									  background: url(style/images/iconfont-close1.png);
+									  background-size: 100% 100%;
+									  position: absolute;
+									  right: -50px;
+									  cursor: pointer;
+									  background-color: #38d38d;
+									}
+									.iu-hcontent {
+									  width: 100%;
+									}
+									.iu-names {
+									  width: 120px;
+									  height: 50px;
+									  float: left;
+									  font-size: 20px;
+									  line-height: 50px;
+									  text-align: center;
+									  background: #38d38d;
+									  margin-right: 20px;
+									  margin-bottom: 5px;
+									}
+									.style_current{
+										color: red!important;
+									}
+									.iu-names:hover{
+										color: orangered;
+									}
+									div#iu_mask {
+									  position: absolute;
+									  width: 100%;
+									  height: 100%;
+									  top: 0px;
+									  left: 0px;
+									  background: #DDD;
+									  opacity: 0.7;
+									}
+								</style>
+								<div class="iu-hidden">
+									<div class="iu-hclose" id="hclose"></div>
+									<div class="iu-hcontent" id="sxnames_area">
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+				<!--/#baiduMap-->
+			</div>
+			<!------------------------------------- end ----------------------------------------->
+
+			<script src="style/js/job_detail.js" type="text/javascript"></script>
+			<script src="style/js/count.js" type="text/javascript"></script>
+			<div class="clear"></div>
+			<a rel="nofollow" title="回到顶部" id="backtop" style="display: inline;"></a>
+		</div>
+		<!-- end #container -->
+		</div>
+		<!-- end #body -->
+		<div id="footer">
+			<div class="wrapper">
+				<a href="about.html" target="_blank" rel="nofollow">联系我们</a>
+				<a class="footer_qr" href="javascript:void(0)" rel="nofollow">哎呦微信<i></i></a>
+				<div class="copyright">&copy;2015-2018 IUname <a target="_blank" href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action">京ICP备14023790号-2</a>
+				</div>
+			</div>
+		</div>
+		
+		
+		<script src="style/js/core.min.js" type="text/javascript"></script>
+		<script src="style/js/popup.min.js" type="text/javascript"></script>
+		<!--  -->
+		<script type="text/javascript" src="style/js/h.js"></script>
+		<script>
+			$(function(){
+				var f=true;
+				$('#hideBTN').click(function(){
+					if(!f){
+						f=true;
+						$(this).text('点击查看');
+						$('.originalyw-content-css').slideUp();
+					}else{
+						f=false;
+						$(this).text('点击隐藏');
+						$('.originalyw-content-css').slideDown();
+					}
+				});
+			});
+			
+			;(function($,w,d,n,l,undefined){
+				var iugloble={} ;
+				function hasEl(e,t){
+					var flag=false;
+					for(var i=0;i<t.length;i++){
+						if(t[i]==e){
+							flag= true;
+							break;
+						}
+					}
+				}
+				$('#iuqianlne').click(function(){
+					var boynames=lao_boynamesA.concat(lao_boynamesB,lao_boynamesC,lao_boynamesD,lao_boynamesF,lao_boynamesG,lao_boynamesH,lao_boynamesJ,lao_boynamesK,lao_boynamesL,lao_boynamesM,lao_boynamesP,lao_boynamesQ,lao_boynamesR,lao_boynamesS,lao_boynamesT,lao_boynamesX,lao_boynamesY,lao_boynamesZ);
+				 	var girlnames=lao_girlnames.concat(lao_girlnamesA,lao_girlnamesB,lao_girlnamesC,lao_girlnamesD,lao_girlnamesE,lao_girlnamesG,lao_girlnamesH,lao_girlnamesJ,lao_girlnamesK,lao_girlnamesM,lao_girlnamesN,lao_girlnamesP,lao_girlnamesQ,lao_girlnamesR,lao_girlnamesS,lao_girlnamesT,lao_girlnamesX,lao_girlnamesY,lao_girlnamesZ);
+				 	var ns=boynames.concat(girlnames);
+				 	
+					var checkedsNames = [];			//放置匹配出来的名字的容器
+						//************第一种算法     优先************\\
+						//************算法描述
+						//************根据。分成数组，一个名字匹配完之后不能再匹配
+						//************结束  ****************\\
+						//************start***************\\
+						var c=$('.original-content-css').text();
+						for(var i=0;i<ns.length;i++){
+							if(new RegExp(ns[i]).test(c)){
+								if(!hasEl(ns[i],checkedsNames)){
+									checkedsNames.push(ns[i]);
+									c=c.replace(new RegExp(ns[i],'g'),'<span class="style_content">'+ns[i]+'</span>');
+								}
+							}
+						}
+						$('.original-content-css').html(c);
+						//************第二种算法      不冲突***********\\
+						//************算法描述
+						//************在。号中间为一组，首先去匹配常见名字单字字库
+						//************如果有  根据该字去匹配名字的第二字**************\\
+						//************然后再根据第二个字去匹配该句是否有第二个字******\\
+						//************如果有则标记******************\\
+						
+						
+						//************两种算法互相不冲突,如果第一种处理过之后，则在第二种算法中不再处理**********\\
+						
+					
+				 		//************Last**********
+				 		//************初始化************\\
+				 		$('#sxnames_area').html('');
+				 		for(var i=0;i<checkedsNames.length;i++){
+				 			$('#sxnames_area').append('<div class="iu-names">'+checkedsNames[i]+'</div>');
+				 		}
+				 		$('#sxnames_area').append('<div style="clear:both"></div>');
+				 		$('.iu-names').each(function(){
+				 			$(this).bind('mouseenter',function(){
+				 				var c1=$(this).text();
+				 				var target1 = this;
+				 				iugloble.target2=target1;
+				 				$('.style_content').each(function(){
+				 					if($(this).text()==c1){
+				 						$(this).addClass('style_current');
+				 						iugloble.target1=this;
+//				 						addlistenScroll();
+				 						wecscrollTo();
+				 						drawLine(this,target1);
+				 					}
+				 				});
+				 			}).bind('mouseleave',function(){
+				 				$('.style_current').removeClass('style_current');
+//				 				var tar1 = d.getElementById('iuLineX');
+//				 				var tar2 = d.getElementById('iuLineY');
+//				 				showOrHide(tar1);
+//				 				showOrHide(tar2);
+//				 				removeListenScroll();
+				 			});
+				 		});
+				 		$('#iu_mask').css('display','block');
+				 		$('#sxnames').css('display','block');
+				 		$(window).scrollTop(0);
+				 	
+				});
+				
+				
+				$('#hclose').bind('click',function(){
+					$('#sxnames').css('display','none');
+					$('#iu_mask').css('display','none');
+				});
+				
+				function drawLine(target,target1){
+					var l1,t1,l2,t2;
+					var ts = window.scrollY;
+					l1 = target.offsetLeft;
+					t1 = target.offsetTop;
+					l2 = target1.offsetLeft+$('#iu_mask').offset().left;
+					t2 = target1.offsetTop+84;
+					var xDiv = document.getElementById('iuLineX'),
+						yDiv = document.getElementById('iuLineY');
+					
+					var topY = (function(){
+						var top1 = (t1<t2)?t1:t2;
+						var scTop = getScrollTop();
+						if(t1<t2){
+							console.log('yyyyy')
+							return top1+50;
+						}else{
+							return top1+scTop;
+						}
+					})();
+					console.log(l1+','+t1+','+l2+','+t2);
+					
+					if(xDiv && yDiv){
+						xDiv.style.left=l1+'px';
+						xDiv.style.top =(t2+ts)+'px';
+						xDiv.style.width = Math.abs(l2-l1)+'px';
+						xDiv.style['border-top']='1px solid red';
+						
+						yDiv.style.left=l1+'px';
+						yDiv.style.top =topY+'px';
+						yDiv.style.height = (Math.abs(t2-t1)-getScrollTop())+'px';
+						yDiv.style['border-left']='1px solid red';
+						showOrHide(xDiv);
+						showOrHide(yDiv);
+					}else{
+						xDiv = document.createElement('div');
+						
+						xDiv.style.left=l1+'px';
+						xDiv.style.top =(t2+ts)+'px';
+						xDiv.id="iuLineX";
+						xDiv.style.width = Math.abs(l2-l1)+'px';
+						xDiv.style['border-top']='1px solid red';
+						xDiv.style.position='absolute';
+						document.body.appendChild(xDiv);
+						
+						yDiv =  document.createElement('div');
+						yDiv.style.left=l1+'px';
+						yDiv.style.top =topY+'px';
+						yDiv.style.position='absolute';
+						yDiv.id = "iuLineY";
+						yDiv.style.height = (Math.abs(t2-t1)-getScrollTop())+'px';
+						yDiv.style['border-top']='1px solid red';
+						document.body.appendChild(yDiv);
+						
+					}
+					
+				}
+				
+				function showOrHide(target){
+					return target.style.display!='none'?target.style.display='none':target.style.display='block';
+				}
+				
+				function addlistenScroll(){
+					document.addEventListener('mousewheel',listenWindowScroll,false);
+				}
+				function removeListenScroll(){
+					document.removeEventListener('mousewheel',listenWindowScroll);
+				}
+				function listenWindowScroll(){
+					
+				}
+				function wecscrollTo(){
+					var st = getScrollTop();
+					var t1 = iugloble.target1.offsetTop;
+					var t2 = iugloble.target2.offsetTop;
+					if(st ==0){
+						
+					}
+				}
+				
+				function getScrollTop(){
+					return (document.body.scrollTop!=0)?document.body.scrollTop:document.documentElement.scrollTop;
+				}
+			})($,window,document,names_keywords,laonames);
+		</script>
+	</body>
+
+</html>

@@ -15,10 +15,12 @@
 		<script src="style/js/jquery.lib.min.js" type="text/javascript"></script>
 		<script type="text/javascript" src="style/js/ajaxfileupload.js"></script>
 		<script type="text/javascript" src="style/js/jquery-hbzx.js"></script>
+		<script src="../js/useful-words.js"></script>
+		<script src="../js/laonames.js"></script>
+		<script src="../js/names.js"></script>
 		<!--[if lte IE 8]>
     <script type="text/javascript" src="style/js/excanvas.js"></script>
 <![endif]-->
-		<script src="style/js/conv.js" type="text/javascript"></script>
 		<script src="style/js/ajaxCross.json" charset="UTF-8"></script>
 		<style>
 			.iw {
@@ -644,6 +646,11 @@
 				margin-bottom: 15px;
 				display: none;
 			}
+			span.style_content {
+			  font-size: 18px;
+			  color: #0BB363;
+			  font-weight: bold;
+			}
 		</style>
 	</head>
 
@@ -700,26 +707,19 @@
 
                        	</div>-->
                        </dt>
-							<dd class="job_request">
+							<dd class="job_request" style="position: relative;">
 								<span>骈体 </span>
 								<span>诗序</span>
 								<span>典范之作</span>
 								<br> 作者 : 王勃
-								<div>发布时间：16:05发布</div>
+								<a title="分析好名字" class="btn fr btn_apply" href="javascript:void(0);" id="iuqianlne" style="  position: absolute;display: block;right: 33px;top: 23px;">潜力名字</a>
 							</dd>
 							<dd class="job_bt">
 								<h3 class="description">作品原文</h3>
-								<p class="original-content-css">豫章故郡，洪都新府。星分翼轸（zhěn），地接衡庐。襟三江而带五湖，控蛮荆而引瓯（ōu）越。物华天宝，龙光射牛斗之墟；人杰地灵，徐孺下陈蕃（fān）之榻（tà）。雄州雾列，俊采星驰。台隍（huáng）枕夷夏之交，宾主尽东南之美。都督阎公之雅望，棨（qǐ）戟（jǐ）遥临；宇文新州之懿（yì）范，襜（chān）帷（wéi）暂驻。十旬休假，胜友如云；千里逢迎，高朋满座。腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。家君作宰，路出名区；童子何知，躬逢胜饯。</p>
-								<p class="original-content-css">时维九月，序属三秋。潦（lǎo）水尽而寒潭清，烟光凝而暮山紫。俨（yǎn）骖（cān）騑（fēi）于上路，访风景于崇阿（ē）。临帝子之长洲，得天人之旧馆。层峦耸翠，上出重霄；飞阁流丹，下临无地。鹤汀（tīng）凫（fú）渚（zhǔ），穷岛屿之萦回；桂殿兰宫，即冈峦之体势。</p>
-								<p class="original-content-css">披绣闼（tà），俯雕甍（méng），山原旷其盈视，川泽纡其骇瞩。闾阎（lǘ yán）扑地，钟鸣鼎食之家；舸（gě）舰弥津，青雀黄龙之轴（通：舳zhú）。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡（lǐ）之滨，雁阵惊寒，声断衡阳之浦。</p>
-								<p class="original-content-css">遥襟甫畅，逸兴遄（chuán）飞。爽籁发而清风生，纤歌凝而白云遏（è）。睢（suī）园绿竹，气凌彭泽之樽（zūn）；邺（yè）水朱华，光照临川之笔。四美具，二难并。穷睇眄（dì miǎn）于中天，极娱游于暇日。天高地迥（jiǒng），觉宇宙之无穷；兴尽悲来，识盈虚之有数。望长安于日下，目吴会（kuài）于云间。地势极而南溟（míng）深，天柱高而北辰远。关山难越，谁悲失路之人；萍水相逢，尽是他乡之客。怀帝阍（hūn）而不见，奉宣室以何年？</p>
-								<p class="original-content-css">嗟乎！时运不齐，命途多舛（chuǎn）。冯唐易老，李广难封。屈贾谊于长沙，非无圣主；窜梁鸿于海曲，岂乏明时？所赖君子见机，达人知命。老当益壮，宁移白首之心？穷且益坚，不坠青云之志。酌贪泉而觉爽，处涸辙（hézhé）以犹欢。北海虽赊（shē），扶摇可接；东隅（yú）已逝，桑榆非晚。孟尝高洁，空余报国之情；阮籍猖狂，岂效穷途之哭！</p>
-								<p class="original-content-css">勃，三尺微命，一介书生。无路请缨，等终军之弱冠；有怀投笔，慕宗悫（què）之长风。舍簪（zān）笏（hù）于百龄，奉晨昏于万里。非谢家之宝树，接孟氏之芳邻。他日趋（qū）庭，叨（tāo）陪鲤对；今兹捧袂，喜托龙门。杨意不逢，抚凌云而自惜；钟期既遇，奏流水以何惭？</p>
-								<p class="original-content-css">呜乎！胜地不常，盛筵难再；兰亭已矣，梓（zǐ）泽丘墟。临别赠言，幸承恩于伟饯；登高作赋，是所望于群公。敢竭鄙怀，恭疏短引；一言均赋，四韵俱成。请洒潘江，各倾陆海云尔：</p>
-								<p class="original-content-css">滕王高阁临江渚，佩玉鸣鸾罢歌舞。</p>
-								<p class="original-content-css">画栋朝飞南浦云，珠帘暮卷西山雨。</p>
-								<p class="original-content-css">闲云潭影日悠悠，物换星移几度秋。</p>
-								<p class="original-content-css">阁中帝子今何在？槛外长江空自流。</p>
+								<p class="original-content-css">豫章故郡，洪都新府。星分翼轸（zhěn），地接衡庐。襟三江而带五湖，控蛮荆而引瓯（ōu）越。物华天宝，龙光射牛斗之墟；人杰地灵，徐孺下陈蕃（fān）之榻（tà）。雄州雾列，俊采星驰。台隍（huáng）枕夷夏之交，宾主尽东南之美。都督阎公之雅望，棨（qǐ）戟（jǐ）遥临；宇文新州之懿（yì）范，襜（chān）帷（wéi）暂驻。十旬休假，胜友如云；千里逢迎，高朋满座。腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。家君作宰，路出名区；童子何知，躬逢胜饯。 时维九月，序属三秋。潦（lǎo）水尽而寒潭清，烟光凝而暮山紫。俨（yǎn）骖（cān）騑（fēi）于上路，访风景于崇阿（ē）。临帝子之长洲，得天人之旧馆。层峦耸翠，上出重霄；飞阁流丹，下临无地。鹤汀（tīng）凫（fú）渚（zhǔ），穷岛屿之萦回；桂殿兰宫，即冈峦之体势。
+									披绣闼（tà），俯雕甍（méng），山原旷其盈视，川泽纡其骇瞩。闾阎（lǘ yán）扑地，钟鸣鼎食之家；舸（gě）舰弥津，青雀黄龙之轴（通：舳zhú）。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡（lǐ）之滨，雁阵惊寒，声断衡阳之浦。 遥襟甫畅，逸兴遄（chuán）飞。爽籁发而清风生，纤歌凝而白云遏（è）。睢（suī）园绿竹，气凌彭泽之樽（zūn）；邺（yè）水朱华，光照临川之笔。四美具，二难并。穷睇眄（dì miǎn）于中天，极娱游于暇日。天高地迥（jiǒng），觉宇宙之无穷；兴尽悲来，识盈虚之有数。望长安于日下，目吴会（kuài）于云间。地势极而南溟（míng）深，天柱高而北辰远。关山难越，谁悲失路之人；萍水相逢，尽是他乡之客。怀帝阍（hūn）而不见，奉宣室以何年？
+									嗟乎！时运不齐，命途多舛（chuǎn）。冯唐易老，李广难封。屈贾谊于长沙，非无圣主；窜梁鸿于海曲，岂乏明时？所赖君子见机，达人知命。老当益壮，宁移白首之心？穷且益坚，不坠青云之志。酌贪泉而觉爽，处涸辙（hézhé）以犹欢。北海虽赊（shē），扶摇可接；东隅（yú）已逝，桑榆非晚。孟尝高洁，空余报国之情；阮籍猖狂，岂效穷途之哭！ 勃，三尺微命，一介书生。无路请缨，等终军之弱冠；有怀投笔，慕宗悫（què）之长风。舍簪（zān）笏（hù）于百龄，奉晨昏于万里。非谢家之宝树，接孟氏之芳邻。他日趋（qū）庭，叨（tāo）陪鲤对；今兹捧袂，喜托龙门。杨意不逢，抚凌云而自惜；钟期既遇，奏流水以何惭？
+									呜乎！胜地不常，盛筵难再；兰亭已矣，梓（zǐ）泽丘墟。临别赠言，幸承恩于伟饯；登高作赋，是所望于群公。敢竭鄙怀，恭疏短引；一言均赋，四韵俱成。请洒潘江，各倾陆海云尔： 滕王高阁临江渚，佩玉鸣鸾罢歌舞。 画栋朝飞南浦云，珠帘暮卷西山雨。 闲云潭影日悠悠，物换星移几度秋。 阁中帝子今何在？槛外长江空自流。
 							</dd>
 							<dd class="job_bt">
 								<div style="float: right;cursor: pointer;" id="hideBTN">点击查看</div>
@@ -730,30 +730,28 @@
 								<p class="originalyw-content-css">放眼远望，胸襟刚感到舒畅，超逸的兴致立即兴起，排箫的音响引来的徐徐清风，柔缓的歌声吸引住飘动的白云。像睢园竹林的聚会，这里善饮的人，酒量超过彭泽县令陶渊明，像邺水赞咏莲花，这里诗人的文采，胜过临川内史谢灵运。（音乐与饮食，文章和言语）这四种美好的事物都已经齐备，（贤主、嘉宾）这两个难得的条件也凑合在一起了，向天空中极目远眺，在假日里尽情欢娱。苍天高远，大地辽阔，令人感到宇宙的无穷无尽。欢乐逝去，悲哀袭来，我知道了事物的兴衰成败是有定数的。西望长安，东指绍兴，南方的陆地已到尽头，大海深不可测，北方的北斗星多么遥远，天柱高不可攀。关山重重难以越过，有谁同情不得志的人？萍水偶尔相逢，大家都是异乡之客．怀念着君王的宫门，但却不被召见，什么时候才能够去侍奉君王呢？</p>
 								<p class="originalyw-content-css">呵，各人的时机不同，人生的命运多有不顺。冯唐容易衰老，李广难得封侯。使贾谊遭受委屈，贬于长沙，并不是没有圣明的君主，使梁鸿逃匿到齐鲁海滨，难道不是政治昌明的时代？只不过由于君子能了解时机，通达的人知道自己的命运罢了。年纪虽然老了，但志气应当更加旺盛，怎能在白头时改变心情？境遇虽然困苦，但节操应当更加坚定，决不能抛弃自己的凌云壮志。即使喝了贪泉的水，心境依然清爽廉洁；即使身处于干涸的车辙中，胸怀依然开朗愉快。北海虽然十分遥远，乘着旋风还是能够达到，早晨虽然已经过去，而珍惜黄昏却为时不晚。孟尝心地高洁，但白白地怀抱着报国的热情，阮籍为人放纵不羁，我们怎能学他那种穷途的哭泣！</p>
 								<p class="originalyw-content-css">我地位卑微，只是一个书生。虽然和终军一样年已二十一，却无处去请缨杀敌。我羡慕宗悫那种“乘长风破万里浪”的英雄气概，也有投笔从戎的志向。如今我抛弃了一生的功名，不远万里去朝夕侍奉父亲。虽然称不上谢家的“宝树”，但是能和贤德之士相交往。不久我将见到父亲，聆听他的教诲。今天我侥幸地奉陪各位长者，高兴地登上龙门。假如碰不上杨得意那样引荐的人，就只有抚拍着自己的文章而自我叹惜。既然已经遇到了钟子期，就弹奏一曲《流水》又有什么羞愧呢？</p>
-								<p class="originalyw-content-css">呵！名胜之地不能常存，盛大的宴会难以再逢。兰亭宴集已为陈迹，石崇的梓泽也变成了废墟。承蒙这个宴会的恩赐，让我临别时作了这一篇序文，至于登高作赋，这只有指望在座诸公了。我只是冒昧地尽我微薄的心意，作了短短的引言。在座诸位都按各自分到的韵字赋诗，我已写成了四韵八句。请在座诸位施展潘岳，陆机一样的才笔，各自谱写瑰丽的诗篇吧！[3] [4] </p>
+								<p class="originalyw-content-css">呵！名胜之地不能常存，盛大的宴会难以再逢。兰亭宴集已为陈迹，石崇的梓泽也变成了废墟。承蒙这个宴会的恩赐，让我临别时作了这一篇序文，至于登高作赋，这只有指望在座诸公了。我只是冒昧地尽我微薄的心意，作了短短的引言。在座诸位都按各自分到的韵字赋诗，我已写成了四韵八句。请在座诸位施展潘岳，陆机一样的才笔，各自谱写瑰丽的诗篇吧!</p>
 								<p class="originalyw-content-css">巍峨高耸的滕王阁俯临着江心的沙洲，想当初佩玉、鸾铃鸣响的豪华歌舞已经停止了。早晨，画栋飞上了南浦的云；黄昏，珠帘卷入了西山的雨。悠闲的彩云影子倒映在江水中，整天悠悠然地漂浮着；时光易逝，人事变迁，不知已经度过几个春秋。昔日游赏于高阁中的滕王如今已不知哪里去了，只有那栏杆外的滔滔江水空自向远方奔流。</p>
 							</dd>
-
+						
+							
 							<!-- 用户是否激活 0-否；1-是 -->
 
-							<dd>
-								<a title="分析好名字" class="btn fr btn_apply" href="javascript:void(0);">潜力名字</a>
-							</dd>
 						</dl>
 						<div id="weibolist"></div>
 					</div>
-					<div class="content_r">
-						<dl class="job_company">
+					<div class="content_r" style="position: relative;">
+						<dl class="job_company" >
 							<dt>
-                    	<a href="#">
-                            <img width="80" height="80" alt="唐代王勃简介" src="style/images/wangb-01.png" class="b2">
-                            <div>
-                                <h2 class="fl">
-                                	  王勃
-                                </h2>
-                            </div>
-                        </a>
-                    </dt>
+		                    	<a href="#">
+		                            <img width="80" height="80" alt="唐代王勃简介" src="style/images/wangb-01.png" class="b2">
+		                            <div>
+		                                <h2 class="fl">
+		                                	  王勃
+		                                </h2>
+		                            </div>
+		                        </a>
+		                    </dt>
 							<dd>
 								<ul class="c_feature reset">
 									<li><span>职业</span>写作</li>
@@ -761,6 +759,64 @@
 								</ul>
 								<h4>个人简介</h4>
 								<div>王勃（约650年—约676年），字子安，汉族，唐代诗人。古绛州龙门（今山西河津）人，出身儒学世家，与杨炯、卢照邻、骆宾王并称为“初唐四杰”，王勃为四杰之首。王勃自幼聪敏好学，据《旧唐书》记载，他六岁即能写文章，文笔流畅，被赞为“神童”。九岁时，读颜师古注《汉书》，作《指瑕》十卷以纠正其错。十六岁时，应幽素科试及第，授职朝散郎。因做《斗鸡檄》被赶出沛王府。之后，王勃历时三年游览巴蜀山川景物，创作了大量诗文。返回长安后，求补得虢州参军。在参军任上，因私杀官奴二次被贬。上元三年（676年）八月，自交趾探望父亲返回时，不幸渡海溺水，惊悸而死。王勃在诗歌体裁上擅长五律和五绝，代表作品有《送杜少府之任蜀州》，主要文学成就是骈文，无论是数量还是质量上，都是上乘之作，代表作品有《滕王阁序》等。</div>
+							</dd>
+						</dl>	
+						<div id="iu_mask" style="display: none;"></div>
+						<div  id="sxnames" style="display: none;">
+								<style>
+									.iu-hidden {
+									  color: #FFF;
+									   position: fixed;
+									   width: 280px;
+ 									top: 84px;
+									}
+									.iu-hclose {
+									  width: 50px;
+									  height: 50px;
+									  display: block;
+									  background: url(style/images/iconfont-close1.png);
+									  background-size: 100% 100%;
+									  position: absolute;
+									  right: -50px;
+									  cursor: pointer;
+									  background-color: #38d38d;
+									}
+									.iu-hcontent {
+									  width: 100%;
+									}
+									.iu-names {
+									  width: 120px;
+									  height: 50px;
+									  float: left;
+									  font-size: 20px;
+									  line-height: 50px;
+									  text-align: center;
+									  background: #38d38d;
+									  margin-right: 20px;
+									  margin-bottom: 5px;
+									}
+									.style_current{
+										color: red!important;
+									}
+									.iu-names:hover{
+										color: orangered;
+									}
+									div#iu_mask {
+									  position: absolute;
+									  width: 100%;
+									  height: 100%;
+									  top: 0px;
+									  left: 0px;
+									  background: #DDD;
+									  opacity: 0.7;
+									}
+								</style>
+								<div class="iu-hidden">
+									<div class="iu-hclose" id="hclose"></div>
+									<div class="iu-hcontent" id="sxnames_area">
+									</div>
+								</div>
+							</div>
 					</div>
 				</div>
 				<!--/#baiduMap-->
@@ -778,13 +834,15 @@
 		<div id="footer">
 			<div class="wrapper">
 				<a href="about.html" target="_blank" rel="nofollow">联系我们</a>
-			    <a class="footer_qr" href="javascript:void(0)" rel="nofollow">哎呦微信<i></i></a>
-				<div class="copyright">&copy;2015-2018 IUname <a target="_blank" href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action">京ICP备14023790号-2</a></div>
+				<a class="footer_qr" href="javascript:void(0)" rel="nofollow">哎呦微信<i></i></a>
+				<div class="copyright">&copy;2015-2018 IUname <a target="_blank" href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action">京ICP备14023790号-2</a>
+				</div>
 			</div>
 		</div>
+		
+		
 		<script src="style/js/core.min.js" type="text/javascript"></script>
 		<script src="style/js/popup.min.js" type="text/javascript"></script>
-		<script src="style/js/tongji.js" type="text/javascript"></script>
 		<!--  -->
 		<script type="text/javascript" src="style/js/h.js"></script>
 		<script>
@@ -803,9 +861,180 @@
 				});
 			});
 			
-			;(function($,w,d,undefined){
+			;(function($,w,d,n,l,undefined){
+				var iugloble={} ;
+				function hasEl(e,t){
+					var flag=false;
+					for(var i=0;i<t.length;i++){
+						if(t[i]==e){
+							flag= true;
+							break;
+						}
+					}
+				}
+				$('#iuqianlne').click(function(){
+					var boynames=lao_boynamesA.concat(lao_boynamesB,lao_boynamesC,lao_boynamesD,lao_boynamesF,lao_boynamesG,lao_boynamesH,lao_boynamesJ,lao_boynamesK,lao_boynamesL,lao_boynamesM,lao_boynamesP,lao_boynamesQ,lao_boynamesR,lao_boynamesS,lao_boynamesT,lao_boynamesX,lao_boynamesY,lao_boynamesZ);
+				 	var girlnames=lao_girlnames.concat(lao_girlnamesA,lao_girlnamesB,lao_girlnamesC,lao_girlnamesD,lao_girlnamesE,lao_girlnamesG,lao_girlnamesH,lao_girlnamesJ,lao_girlnamesK,lao_girlnamesM,lao_girlnamesN,lao_girlnamesP,lao_girlnamesQ,lao_girlnamesR,lao_girlnamesS,lao_girlnamesT,lao_girlnamesX,lao_girlnamesY,lao_girlnamesZ);
+				 	var ns=boynames.concat(girlnames);
+				 	
+					var checkedsNames = [];			//放置匹配出来的名字的容器
+						//************第一种算法     优先************\\
+						//************算法描述
+						//************根据。分成数组，一个名字匹配完之后不能再匹配
+						//************结束  ****************\\
+						//************start***************\\
+						var c=$('.original-content-css').text();
+						for(var i=0;i<ns.length;i++){
+							if(new RegExp(ns[i]).test(c)){
+								if(!hasEl(ns[i],checkedsNames)){
+									checkedsNames.push(ns[i]);
+									c=c.replace(new RegExp(ns[i],'g'),'<span class="style_content">'+ns[i]+'</span>');
+								}
+							}
+						}
+						$('.original-content-css').html(c);
+						//************第二种算法      不冲突***********\\
+						//************算法描述
+						//************在。号中间为一组，首先去匹配常见名字单字字库
+						//************如果有  根据该字去匹配名字的第二字**************\\
+						//************然后再根据第二个字去匹配该句是否有第二个字******\\
+						//************如果有则标记******************\\
+						
+						
+						//************两种算法互相不冲突,如果第一种处理过之后，则在第二种算法中不再处理**********\\
+						
+					
+				 		//************Last**********
+				 		//************初始化************\\
+				 		$('#sxnames_area').html('');
+				 		for(var i=0;i<checkedsNames.length;i++){
+				 			$('#sxnames_area').append('<div class="iu-names">'+checkedsNames[i]+'</div>');
+				 		}
+				 		$('#sxnames_area').append('<div style="clear:both"></div>');
+				 		$('.iu-names').each(function(){
+				 			$(this).bind('mouseenter',function(){
+				 				var c1=$(this).text();
+				 				var target1 = this;
+				 				iugloble.target2=target1;
+				 				$('.style_content').each(function(){
+				 					if($(this).text()==c1){
+				 						$(this).addClass('style_current');
+				 						iugloble.target1=this;
+//				 						addlistenScroll();
+				 						wecscrollTo();
+				 						drawLine(this,target1);
+				 					}
+				 				});
+				 			}).bind('mouseleave',function(){
+				 				$('.style_current').removeClass('style_current');
+				 				var tar1 = d.getElementById('iuLineX');
+				 				var tar2 = d.getElementById('iuLineY');
+				 				showOrHide(tar1);
+				 				showOrHide(tar2);
+//				 				removeListenScroll();
+				 			});
+				 		});
+				 		$('#iu_mask').css('display','block');
+				 		$('#sxnames').css('display','block');
+				 		$(window).scrollTop(0);
+				 	
+				});
 				
-			})($,window,document);
+				
+				$('#hclose').bind('click',function(){
+					$('#sxnames').css('display','none');
+					$('#iu_mask').css('display','none');
+				});
+				
+				function drawLine(target,target1){
+					var l1,t1,l2,t2;
+					var ts = window.scrollY;
+					l1 = target.offsetLeft;
+					t1 = target.offsetTop;
+					l2 = target1.offsetLeft+$('#iu_mask').offset().left;
+					t2 = target1.offsetTop+84;
+					var xDiv = document.getElementById('iuLineX'),
+						yDiv = document.getElementById('iuLineY');
+					
+					var topY = (function(){
+						var top1 = (t1<t2)?t1:t2;
+						var scTop = getScrollTop();
+						if(t1<t2){
+							console.log('yyyyy')
+							return top1+50;
+						}else{
+							return top1+scTop;
+						}
+					})();
+					console.log(l1+','+t1+','+l2+','+t2);
+					
+					if(xDiv && yDiv){
+						xDiv.style.left=l1+'px';
+						xDiv.style.top =(t2+ts)+'px';
+						xDiv.style.width = Math.abs(l2-l1)+'px';
+						xDiv.style['border-top']='1px solid red';
+						
+						yDiv.style.left=l1+'px';
+						yDiv.style.top =topY+'px';
+						yDiv.style.height = (Math.abs(t2-t1)-getScrollTop())+'px';
+						yDiv.style['border-left']='1px solid red';
+						showOrHide(xDiv);
+						showOrHide(yDiv);
+					}else{
+						xDiv = document.createElement('div');
+						
+						xDiv.style.left=l1+'px';
+						xDiv.style.top =(t2+ts)+'px';
+						xDiv.id="iuLineX";
+						xDiv.style.width = Math.abs(l2-l1)+'px';
+						xDiv.style['border-top']='1px solid red';
+						xDiv.style.position='absolute';
+						document.body.appendChild(xDiv);
+						
+						yDiv =  document.createElement('div');
+						yDiv.style.left=l1+'px';
+						yDiv.style.top =topY+'px';
+						yDiv.style.position='absolute';
+						yDiv.id = "iuLineY";
+						yDiv.style.height = (Math.abs(t2-t1)-getScrollTop())+'px';
+						yDiv.style['border-top']='1px solid red';
+						document.body.appendChild(yDiv);
+						
+					}
+					
+				}
+				
+				function showOrHide(target){
+					return target.style.display!='none'?target.style.display='none':target.style.display='block';
+				}
+				
+				function addlistenScroll(){
+					document.addEventListener('mousewheel',listenWindowScroll,false);
+				}
+				function removeListenScroll(){
+					document.removeEventListener('mousewheel',listenWindowScroll);
+				}
+				function listenWindowScroll(){
+					
+				}
+				function wecscrollTo(){
+					$(window).scroll(function(){
+						var t = document.getElementById('iuLineX');
+						var y = document.getElementById('iuLineY');
+						var tgt1 = iugloble.target1;
+						var tgt2 = iugloble.target2;
+						var t1 = tgt1.offsetTop;
+						var t2 = tgt2.offsetTop+84;
+						
+						t.style.top = tgt2.offsetTop+84+getScrollTop()+'px';
+						y.style.top = (t1>t2)?t2:t1+'px';
+					});
+				}
+				
+				function getScrollTop(){
+					return (document.body.scrollTop!=0)?document.body.scrollTop:document.documentElement.scrollTop;
+				}
+			})($,window,document,names_keywords,laonames);
 		</script>
 	</body>
 
