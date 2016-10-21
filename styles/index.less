@@ -1,0 +1,136 @@
+#text,
+#stage{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #f1f1f1;
+}
+
+#text{
+	height: 200px;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	margin-left: -500/2px;
+}
+
+#indexForm{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 300px;
+
+	label,
+	#inputText,
+	#indexSearch{
+		height: 50px;
+		line-height: 50px;
+		position: absolute;
+		// left: 0;
+		top: 0;
+		font-size: 18px;
+		color: #444;
+	}
+
+	label{
+		width: 50px;
+		right: -20px;
+		z-index: 2;
+		color: #000;
+    text-align: center;
+    height: 20px;
+    top: 15px;
+    line-height: 20px;
+    border-left: 1px solid orange;
+    cursor: pointer;
+    &:hover{
+    	color: orange;
+    }
+	}
+
+	.filters{
+		position: absolute;
+		top: 51px;
+		width: 320px;
+		background: #fff;
+		z-index: 3;
+		display: none;
+	}
+
+	.arrow-wrap{
+		position: absolute;
+		width: 5px;
+		height: 5px;
+		border: 1px solid orange;
+		transform: rotate(45deg);
+		right: 0;
+		top: 47px;
+  	background: #fff;
+   	z-index: 2;
+  }
+
+  .select {
+    position: absolute;
+    top: 0;
+    height: inherit;
+    z-index: 99;
+    color: #ccc;
+	}
+
+	.select-content {
+    position: absolute;
+    border-right: 1px solid #f1f1f1;
+    height: 20px;
+    line-height: 20px;
+    top: 14px;
+    width: 100%;
+    text-align: center;
+	}
+
+	.options {
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    top: 44px;
+    display: none;
+	}
+}
+#gender{
+	float: left;
+}
+#escapeKey{
+	float: right;
+	font-size: 14px;
+	// padding-left: 10px;
+}
+#bazi{
+	width: 300px;
+}
+
+#inputText{
+	width: 100%;
+	background: #FFF;
+	padding-left: 20px;
+	z-index: 1;
+	box-shadow: 1px 0px 5px #ccc;
+	border-bottom: 1px solid orange;
+}
+
+#indexSearch{
+	right: -103px;
+	z-index: 2;
+	width: 80px;
+	text-align: center;
+	background: orange;
+	color: #fff;
+	&:hover{
+    background: #ff8800;
+  }
+}
+
+.no-border{
+	border: 0!important;
+}
+
