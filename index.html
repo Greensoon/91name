@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -9,20 +9,21 @@
 		<link rel="Shortcut Icon" href="images/iu-logo.ico">
 		<link rel="stylesheet" href="styles/51.less">
 	</head>
-	<body>
+	<body>		
 		<canvas id="text" width="850" ></canvas>
 		<canvas id="stage" width="500" ></canvas>
 		<form id="indexForm">
-			<label for="inputText" class="iconfont icon-shaixuan"></label>
-			<input type="text" id="inputText" value="" placeholder="输入姓氏" class="no-border" />
+			<label for="inputText" class="iconfont icon-shaixuan" title="筛选"></label>
+			<input type="text" id="inputText" value="" autocomplete="off" placeholder="输入姓氏" class="no-border" />
 			<div class="arrow-wrap" style="display: none"></div>
 			<a href="javascript:;" id="indexSearch" class="iconfont icon-sousuo"></a>
 			<input type="submit" style="display:none"/>
 			<div class="filters" >
 				<div class="group">
 					<div class="select col-3">
-						<div class="select-content">男</div>
+						<div class="select-content">性别选项</div>
 						<ul class="options">
+							<li class="option" data-value="">保密</li>
 							<li class="option" data-value="1">男</li>
 							<li class="option" data-value="0">女</li>
 						</ul>
@@ -43,3 +44,108 @@
 		<link rel="import" href="_script.html?__inline">
 	</body>
 </html>
+ -->
+
+
+
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Shape Shifter</title>
+		<link rel="stylesheet" href="styles/51.css">
+	</head>
+
+  <body>
+
+    
+		<canvas class="canvas"></canvas>
+
+		<div class="help">C</div> 
+
+		<div class="ui">
+		  <input class="ui-input" type="text" />
+		  <span class="ui-return">↵</span>
+		</div>
+
+		<div class="overlay">
+		  <div class="tabs">
+		    <div class="tabs-labels">
+		    	<span class="tabs-label">筛选条件</span>
+		    </div>
+
+		    <div class="tabs-panels">
+		      <ul class="tabs-panel commands">
+		        <li class="commands-item">
+		        	<span class="commands-item-title">性别</span>
+		        	<span class="commands-item-info" >
+		        		<select  id="gender">
+		        			<option value="">全部</option>
+		        			<option value="0">女</option>
+		        			<option value="1">男</option>
+		        		</select>
+		        	</span>
+		        	
+		        </li>
+		        <li class="commands-item">
+		        	<span class="commands-item-title">过滤</span>
+		        	<span class="commands-item-info" >
+		        		<input type="text" id="filterWords" placeholder="过滤的字，逗号隔开" />
+		        	</span>
+		        	
+		        </li>
+		        <li class="commands-item">
+		        	<span class="commands-item-title">其他正在路上</span>
+		        </li>
+
+		        <li class="commands-item">
+		        	<span class="commands-item-title" style="text-align: center;width: 100%;" id="indexConfirm">确定</span>
+		        </li>
+		        
+		        
+
+		        <!-- <li class="commands-item commands-item--gap">
+		        	<span class="commands-item-title">Animate</span>
+		        	<span class="commands-item-info" data-demo="The time is|#time|#countdown 3|#icon thumbs-up">
+			        	<span class="commands-item-mode">command1</span>&nbsp;|
+			        	<span class="commands-item-mode">command2</span>
+			        </span>
+			        
+			      </li> -->
+		      </ul>
+
+		      <!-- <div class="tabs-panel ui-details">
+		        <div class="ui-details-content">
+		          <h1>Shape Shifter</h1>
+		          <p>
+		            An experiment by <a href="//www.kennethcachia.com" target="_blank">Kenneth Cachia<a/>.<br/>
+		            <a href="//fortawesome.github.io/Font-Awesome/#icons-new" target="_blank">Font Awesome</a> is being used to render all #icons.
+		          </p>
+
+		          <br/><p>Visit <a href="http://www.kennethcachia.com/shape-shifter/?a=#icon thumbs-up" target="_blank">Shape Shifter</a> to use icons.</p>
+		        </div>
+		      </div> -->
+
+		      <!-- <div class="tabs-panel ui-share">
+		        <div class="ui-share-content">
+		          <h1>Sharing</h1>
+		          <p>Simply add <em>?a=</em> to the current URL to share any static or animated text. Examples:</p>
+		          <p>
+		            <a href="http://www.kennethcachia.com/shape-shifter?a=Hello" target="_blank">www.kennethcachia.com/shape-shifter?a=Hello</a><br/>
+		            <a href="http://www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3" target="_blank">www.kennethcachia.com/shape-shifter?a=Hello|#countdown 3</a>
+		          </p>
+		        </div>
+		      </div> -->
+
+		    </div>
+		  </div>
+
+		</div>
+    <ul id="selectNames"></ul>
+    <script src="js/script.js"></script>
+
+    
+    
+  </body>
+</html>
+

@@ -3,6 +3,6 @@ fis.match('*.less', {
   rExt: '.css'
 });
 
-fis.match('*.js', {
-  optimizer: fis.plugin('uglify-js'),
-});
+// fis.match('*.js', {
+//   optimizer: fis.plugin('uglify-js'),
+// });
